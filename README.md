@@ -9,8 +9,8 @@ mysql -u root -p
 
 ALTER USER 'root'@'localhost' IDENTIFIED BY '123qwe';
 
-CREATE USER 'test'@'%' IDENTIFIED WITH mysql_native_password BY '123qwe';
-GRANT ALL PRIVILEGES ON *.* TO 'test'@'%';
+CREATE USER 'test'@'%' IDENTIFIED BY '123qwe';
+GRANT ALL PRIVILEGES ON test.* TO 'test'@'%';
 
 
 ```
