@@ -15,6 +15,8 @@ GRANT ALL PRIVILEGES ON test.* TO 'test'@'%';
 
 ```
 
+连接时 allowPublicKeyRetrieval 需要设置为 true，否则连接不上
+
 # MySQL-notes
 《MySQL必知必会》笔记
 
